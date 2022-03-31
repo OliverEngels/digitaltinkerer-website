@@ -34,7 +34,10 @@ export default function ArticleBox({ work, type = 'experience' }) {
                                 transform={'translate(-50%, -50%)'}>
                                 <VStack spacing={2}>
                                     <Box as='button' bg='black' color='white'>
-                                        <Heading align='center' size='sm' p={3}>
+                                        <Heading
+                                            textAlign='center'
+                                            size='sm'
+                                            p={3}>
                                             {work.title}
                                         </Heading>
                                     </Box>

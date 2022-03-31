@@ -5,8 +5,6 @@ import { container } from './animation-setup'
 const Layout = ({ children, title }) => (
     <motion.div
         style={{ overflow: 'hidden' }}
-        align='center'
-        pt={70}
         initial='hidden'
         animate='show'
         exit='exit'

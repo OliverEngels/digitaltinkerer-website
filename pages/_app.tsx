@@ -10,7 +10,7 @@ function App({ Component, pageProps, router }) {
             <Header />
 
             <AnimatePresence exitBeforeEnter>
-                <Box align='center' pt={70}>
+                <Box textAlign='center' pt={70}>
                     <Component {...pageProps} key={router.pathname} />
                 </Box>
             </AnimatePresence>

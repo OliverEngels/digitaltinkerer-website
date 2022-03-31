@@ -35,15 +35,15 @@ export default function Article() {
                 </Segment>
                 <Segment>
                     <List ml={4} my={4}>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Link</Meta>
                             <WebLink link='https://fragmented.notion.site/d847a432125a4e4f88e87beba79fedd5?v=78b2652188d6498baba018dff139d3f9' />
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Tool</Meta>
                             <span>Any management software</span>
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Reason</Meta>
                             <span>
                                 Getting the right hires into the companie
@@ -60,7 +60,7 @@ export default function Article() {
                 </Segment>
                 <Segment>
                     <UnorderedList my={4}>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <MetaGray>Meet & Greet Interview</MetaGray>
                             <span>
                                 An interview with HR or any other representative
@@ -70,7 +70,7 @@ export default function Article() {
                                 phone call or online meeting.
                             </span>
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <MetaGray>Assignment</MetaGray>
                             <span>
                                 Give the participant and assignment, make sure
@@ -82,7 +82,7 @@ export default function Article() {
                                 to create something great.
                             </span>
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <MetaGray>Expert Interview</MetaGray>
                             <span>
                                 After the assignment has been handed in you can
@@ -95,7 +95,7 @@ export default function Article() {
                                 questions.
                             </span>
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <MetaGray>CEO Interview</MetaGray>
                             <span>
                                 At this point this is more a formality, however,
@@ -103,7 +103,7 @@ export default function Article() {
                                 candidate is not a good fit for his/her company.
                             </span>
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <MetaGray>Contract Discusions</MetaGray>
                             <span>
                                 Usually with HR and the CEO talking about

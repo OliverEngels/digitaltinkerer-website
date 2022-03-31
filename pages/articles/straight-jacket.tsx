@@ -41,19 +41,19 @@ export default function Article() {
                 </Segment>
                 <Segment>
                     <List ml={4} my={4}>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Website</Meta>
                             <WebLink link='https://www.buas.nl/' />
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Platform</Meta>
                             <span>Web</span>
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Type</Meta>
                             <span>Student Community Application</span>
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Contribution</Meta>
                             <span>Design</span>
                         </ListItem>

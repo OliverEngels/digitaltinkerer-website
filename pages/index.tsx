@@ -10,7 +10,8 @@ import {
     chakra,
     SimpleGrid,
     VStack,
-    HStack
+    HStack,
+    Center
 } from '@chakra-ui/react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBrain, faCaretRight } from '@fortawesome/free-solid-svg-icons'
@@ -27,12 +28,14 @@ export default function Home() {
         <Layout title='Digital Tinkerer'>
             <Container pt={75}>
                 <Segment>
-                    <Image
-                        borderRadius='full'
-                        boxSize='150px'
-                        alt='Oliver Engels'
-                        src='/images/avatar.webp'
-                    />
+                    <Center>
+                        <Image
+                            borderRadius='full'
+                            boxSize='150px'
+                            alt='Oliver Engels'
+                            src='/images/avatar.webp'
+                        />
+                    </Center>
                     <Heading>Oliver Engels</Heading>
                     <Heading
                         as='h1'
@@ -121,7 +124,12 @@ export default function Home() {
 
                 <Segment>
                     <Container>
-                        <Heading as='h4' size='md' align='left' pb={2} pt={5}>
+                        <Heading
+                            as='h4'
+                            size='md'
+                            textAlign='left'
+                            pb={2}
+                            pt={5}>
                             Recreation
                         </Heading>
                         <P>
@@ -141,7 +149,7 @@ export default function Home() {
 
                 <Segment>
                     <Container pt={10}>
-                        <Heading as='h4' size='md' align='left' pb={2}>
+                        <Heading as='h4' size='md' textAlign='left' pb={2}>
                             Life History
                         </Heading>
                         <VStack alignItems='left'>
@@ -178,7 +186,7 @@ export default function Home() {
 
                 <Segment>
                     <Container pt={10}>
-                        <Heading as='h4' size='md' align='left' pb={2}>
+                        <Heading as='h4' size='md' textAlign='left' pb={2}>
                             Latest Tinkerings
                         </Heading>
                         <SimpleGrid columns={2} spacing={2}>

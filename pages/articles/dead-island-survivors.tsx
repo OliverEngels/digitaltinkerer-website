@@ -32,19 +32,19 @@ export default function Article() {
 
                 <Segment>
                     <List ml={4} my={4}>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Website</Meta>
                             <WebLink link='https://www.dsfishlabs.com/' />
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Platform</Meta>
                             <span>Tablet / Mobile / iOS / Android</span>
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Genre</Meta>
                             <span>Tower Defence</span>
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Contribution</Meta>
                             <span>VFX / Optimization Tools</span>
                         </ListItem>

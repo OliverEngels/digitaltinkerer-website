@@ -29,15 +29,15 @@ export default function Article() {
             </Segment>
             <Segment>
                 <List ml={4} my={4}>
-                    <ListItem align='left'>
+                    <ListItem textAlign='left'>
                         <Meta>Tool(s)</Meta>
                         <span>Visual Studio</span>
                     </ListItem>
-                    <ListItem align='left'>
+                    <ListItem textAlign='left'>
                         <Meta>Platform</Meta>
                         <span>Playstation Vita</span>
                     </ListItem>
-                    <ListItem align='left'>
+                    <ListItem textAlign='left'>
                         <Meta>Contribution</Meta>
                         <span>Production / Programming</span>
                     </ListItem>

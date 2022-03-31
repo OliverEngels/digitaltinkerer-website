@@ -26,11 +26,11 @@ export default function Article() {
                 </Segment>
                 <Segment>
                     <List ml={4} my={4}>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Tools</Meta>
                             <span>After Effect / Illustrator</span>
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Contribution</Meta>
                             <span>Design / Editing</span>
                         </ListItem>

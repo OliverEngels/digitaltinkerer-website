@@ -40,19 +40,19 @@ export default function Article() {
                 </Segment>
                 <Segment>
                     <List ml={4} my={4}>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Website</Meta>
                             <WebLink link='https://www.vangoghbrabant.com/nl/home/etten-leur' />
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Platform</Meta>
                             <span>Desktop / Oculus Rift</span>
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Type</Meta>
                             <span>Virtual Reality Experience</span>
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Contribution</Meta>
                             <span>Programming / Art</span>
                         </ListItem>
@@ -65,11 +65,11 @@ export default function Article() {
                 </Segment>
                 <Segment>
                     <UnorderedList my={4}>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <MetaGray>Stappen-Shoppen</MetaGray>
                             <WebLink link='https://ettenleur.stappen-shoppen.nl/nieuws/vincent-360-een-ontmoeting-met-van-gogh-in-virtual-reality-585401152a5ab06947b2f587' />
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <MetaGray>Researchgate</MetaGray>
                             <WebLink link='https://www.researchgate.net/figure/The-launch-of-the-virtual-experience-in-the-church-in-Etten-Leur-in-Dec-2016-Photo_fig4_323210826' />
                         </ListItem>

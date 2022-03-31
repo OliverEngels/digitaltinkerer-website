@@ -31,25 +31,25 @@ export default function Article() {
                 </Segment>
                 <Segment>
                     <List ml={4} my={4}>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Website</Meta>
                             <WebLink link='https://cubycard.com/' />
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Platform</Meta>
                             <span>iOS / Android / Web</span>
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Type</Meta>
                             <span>Digital Business Cards</span>
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Stack</Meta>
                             <span>
                                 Flutter / DotNet Core / Entity Framework Core
                             </span>
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Contribution</Meta>
                             <span>Production / Design / Programming</span>
                         </ListItem>

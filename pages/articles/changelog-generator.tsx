@@ -34,19 +34,19 @@ export default function Article() {
                 </Segment>
                 <Segment>
                     <List ml={4} my={4}>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Link Code</Meta>
                             <WebLink link='https://github.com/OliverEngels/notion-changelog-generator' />
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Link Changelog</Meta>
                             <WebLink link='https://fragmented.notion.site/Changelog-5ab080445e3c45a792c1711393b77bc8' />
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Tool</Meta>
                             <span>Notion</span>
                         </ListItem>
-                        <ListItem align='left'>
+                        <ListItem textAlign='left'>
                             <Meta>Language</Meta>
                             <span>Python 3.7</span>
                         </ListItem>

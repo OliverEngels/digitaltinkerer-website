@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
 
 export const Title = ({ children, page = 'experience' }) => (
-    <Breadcrumb pb={5} align={'left'}>
+    <Breadcrumb pb={5} textAlign={'left'}>
         <BreadcrumbItem>
             <Link href={`/${page}`}>
                 {page.charAt(0).toUpperCase() + page.slice(1)}
