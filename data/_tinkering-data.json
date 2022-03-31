@@ -6,11 +6,13 @@
         "img": "/risk-assessment.webp"
     },
     {
+        "id": "changeloggenerator",
         "title": "Changelog Generator",
         "company": "From Python to Notion",
         "img": "/notion-changelog.webp"
     },
     {
+        "id": "applicantflowtemplate",
         "title": "Applicant Flow Template",
         "company": "Does not work for every company",
         "img": "/applicant-flow-template.webp"
@@ -100,16 +102,19 @@
         "img": "/annotations.webp"
     },
     {
+        "id": "gauntlet1985",
         "title": "Gauntlet 1985",
         "company": "Remake",
         "img": "/gauntlet.webp"
     },
     {
+        "id": "robotron2084",
         "title": "Robotron 2084",
         "company": "Remake",
         "img": "/robotron.webp"
     },
     {
+        "id": "museummadness",
         "title": "Museum Madness",
         "company": "PSVita Game",
         "img": "/museummadness.webp"

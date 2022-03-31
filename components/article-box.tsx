@@ -6,18 +6,11 @@ import Segment from '../components/segments'
 const MotionBox = motion(Box)
 
 export default function ArticleBox({ work, type = 'experience' }) {
+    const link = work.link != undefined ? work.link : `/articles/${work.id}`
+
     return (
         <Segment>
-            <Link
-                href={
-                    work.link != null
-                        ? work.link
-                        : `/articles/${work.title
-                              .toString()
-                              .replaceAll(' ', '-')
-                              .toLowerCase()}`
-                }
-                passHref>
+            <Link href={link} passHref>
                 <Box overflow={'hidden'}>
                     <MotionBox
                         dragConstraints={{ left: -100, right: 100 }}
