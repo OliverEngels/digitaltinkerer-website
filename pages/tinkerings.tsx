@@ -1,4 +1,4 @@
-import { data } from './static/_tinkering-data'
+import data from './static/_tinkering-data.json'
 import ArticleList from './articles'
 import Layout from '../components/layout'
 
