@@ -13,6 +13,7 @@ export default function ArticleBox({ work, type = 'experience' }) {
                     work.link != null
                         ? work.link
                         : `/articles/${work.title
+                              .toString()
                               .replaceAll(' ', '-')
                               .toLowerCase()}`
                 }
