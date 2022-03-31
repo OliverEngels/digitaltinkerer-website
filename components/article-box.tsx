@@ -15,7 +15,8 @@ export default function ArticleBox({ work, type = 'experience' }) {
                         : `/articles/${work.title
                               .replaceAll(' ', '-')
                               .toLowerCase()}`
-                }>
+                }
+                passHref>
                 <Box overflow={'hidden'}>
                     <MotionBox
                         dragConstraints={{ left: -100, right: 100 }}
@@ -25,6 +26,7 @@ export default function ArticleBox({ work, type = 'experience' }) {
                             <Image
                                 src={`/images/${type}/${work.img}`}
                                 placeholder='blur'
+                                alt='Experience Image'
                             />
 
                             <Container

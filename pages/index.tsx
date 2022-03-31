@@ -51,7 +51,9 @@ export default function Home() {
 
                     <Wrap spacing={2} justify='center' mb={2}>
                         <WrapItem>
-                            <Link href='https://fragmented.notion.site/Oliver-Engels-a487c5e34e9c4294b8e40b1def1f3526'>
+                            <Link
+                                href='https://fragmented.notion.site/Oliver-Engels-a487c5e34e9c4294b8e40b1def1f3526'
+                                passHref>
                                 <Tag
                                     variant='outline'
                                     colorScheme='gray'
@@ -65,7 +67,9 @@ export default function Home() {
                             </Link>
                         </WrapItem>
                         <WrapItem>
-                            <Link href='https://github.com/OliverEngels?tab=repositories'>
+                            <Link
+                                href='https://github.com/OliverEngels?tab=repositories'
+                                passHref>
                                 <Tag
                                     variant='outline'
                                     colorScheme='gray'
@@ -79,7 +83,9 @@ export default function Home() {
                             </Link>
                         </WrapItem>
                         <WrapItem>
-                            <Link href='https://se.linkedin.com/in/oliverengels?trk=people-guest_people_search-card'>
+                            <Link
+                                href='https://se.linkedin.com/in/oliverengels?trk=people-guest_people_search-card'
+                                passHref>
                                 <Tag
                                     variant='outline'
                                     colorScheme='linkedin'
@@ -111,7 +117,7 @@ export default function Home() {
                             you can do it today? Or at least lay the foundation
                             stone.
                         </P>
-                        <Link href='/experience'>
+                        <Link href='/experience' passHref>
                             <Button colorScheme='red' mt={5}>
                                 <Text>
                                     Experience{' '}
@@ -191,10 +197,14 @@ export default function Home() {
                         </Heading>
                         <SimpleGrid columns={2} spacing={2}>
                             {data.slice(0, 4).map((work, i) => (
-                                <ArticleBox work={work} type='tinkerings' />
+                                <ArticleBox
+                                    work={work}
+                                    type='tinkerings'
+                                    key={`article-${i}`}
+                                />
                             ))}
                         </SimpleGrid>
-                        <Link href='/tinkerings'>
+                        <Link href='/tinkerings' passHref>
                             <Button colorScheme='red' mt={5}>
                                 <Text>
                                     All <FontAwesomeIcon icon={faCaretRight} />

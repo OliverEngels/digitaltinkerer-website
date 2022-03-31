@@ -1,4 +1,4 @@
-import { Tag, List, ListItem, Container } from '@chakra-ui/react'
+import { Tag, List, ListItem } from '@chakra-ui/react'
 import Layout from '../../components/layout'
 import { Meta, Picture, Title } from '../../components/article/article-elm'
 import P from '../../components/paragraph'

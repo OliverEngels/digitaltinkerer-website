@@ -26,7 +26,13 @@ function ArticleList({ data, type = 'experience' }) {
             endMessage={<Text></Text>}>
             <SimpleGrid columns={[1, 1, 2, 2, 3]} minH='full'>
                 {posts.map((work, i) => {
-                    return <ArticleBox work={work} type={type} />
+                    return (
+                        <ArticleBox
+                            work={work}
+                            type={type}
+                            key={`article-${i}`}
+                        />
+                    )
                 })}
             </SimpleGrid>
         </InfiniteScroll>
