@@ -10,7 +10,7 @@ export default function ArticleBox({ work, type = 'experience' }) {
         <Segment>
             <Link
                 href={
-                    work.link != undefined
+                    work.link != null
                         ? work.link
                         : `/articles/${work.title
                               .replaceAll(' ', '-')

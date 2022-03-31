@@ -1,6 +1,6 @@
 import Layout from '../components/layout'
 import ArticleList from './articles'
-import data from './static/_experience-data.json'
+import data from '../data/_experience-data.json'
 
 export default function Experience() {
     return (

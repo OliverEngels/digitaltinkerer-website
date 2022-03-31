@@ -6,7 +6,7 @@ import ArticleBox from '../components/article-box'
 
 const amount = 10
 
-function ArticleList({ data, type = 'experience' }) {
+function ArticleList({ data = [], type = 'experience' }) {
     const [posts, setPosts] = useState(data.slice(0, amount))
 
     const getMorePost = () => {

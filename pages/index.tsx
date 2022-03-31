@@ -16,7 +16,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBrain, faCaretRight } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
-import data from './static/_tinkering-data.json'
+import data from '../data/_tinkering-data.json'
 import { faGithubAlt, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import P from '../components/paragraph'
 import ArticleBox from '../components/article-box'
