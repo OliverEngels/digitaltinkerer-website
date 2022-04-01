@@ -146,7 +146,8 @@ export default function Home() {
                             the Forest{' '}
                             <chakra.span color='tomato'>/</chakra.span> Creating
                             and Managing Software{' '}
-                            <chakra.span color='tomato'>/</chakra.span> Learning{' '}
+                            <chakra.span color='tomato'>/</chakra.span> Learning
+                            Development Techniques{' '}
                             <chakra.span color='tomato'>/</chakra.span>{' '}
                             Developing the Occasional Game here and there
                         </P>
