@@ -48,8 +48,9 @@ export default function Article() {
                         <ListItem textAlign='left'>
                             <Meta>Contribution</Meta>
                             <span>
-                                Production triage to hand over to other producer
-                                and moving on to other projects
+                                Project planning and scope triage to hand over
+                                to other producer after the project was on
+                                schedule again
                             </span>
                         </ListItem>
                     </List>

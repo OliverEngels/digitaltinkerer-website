@@ -44,7 +44,7 @@ export default function Article() {
                         </ListItem>
                         <ListItem textAlign='left'>
                             <Meta>Contribution</Meta>
-                            <span>Production / Programming</span>
+                            <span>Producer / Programming</span>
                         </ListItem>
                     </List>
                 </Segment>
