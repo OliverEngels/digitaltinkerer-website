@@ -1,5 +1,11 @@
 [
     {
+        "title": "Project Oversight",
+        "company": "All information in one place",
+        "link": "/files/projects-oversight.xlsx",
+        "img": "/projects-oversigth.webp"
+    },
+    {
         "title": "Risk Assessment",
         "company": "Simple Risk Setup",
         "link": "/files/risk-assessment.xlsx",
