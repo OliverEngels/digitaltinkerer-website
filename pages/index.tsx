@@ -11,10 +11,15 @@ import {
     SimpleGrid,
     VStack,
     HStack,
-    Center
+    Center,
+    useDisclosure
 } from '@chakra-ui/react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBrain, faCaretRight } from '@fortawesome/free-solid-svg-icons'
+import {
+    faBrain,
+    faCalendarDay,
+    faCaretRight
+} from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 import data from '../data/_tinkering-data.json'
 import { faGithubAlt, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -22,10 +27,23 @@ import P from '../components/paragraph'
 import ArticleBox from '../components/article-box'
 import Segment from '../components/segments'
 import Layout from '../components/layout'
+import { PopupModal } from 'react-calendly'
+import { useRef } from 'react'
 
 export default function Home() {
+    const { isOpen, onOpen, onClose } = useDisclosure()
+
     return (
         <Layout title='Digital Tinkerer'>
+            <PopupModal
+                url='https://calendly.com/oliver-engels'
+                onModalClose={onClose}
+                open={isOpen}
+                rootElement={
+                    typeof window !== 'undefined' &&
+                    document.getElementById('__next')
+                }
+            />
             <Container pt={75}>
                 <Segment>
                     <Center>
@@ -97,6 +115,19 @@ export default function Home() {
                                     </Text>
                                 </Tag>
                             </Link>
+                        </WrapItem>
+                        <WrapItem>
+                            <Tag
+                                onClick={onOpen}
+                                variant='outline'
+                                colorScheme='green'
+                                size='sm'
+                                cursor='pointer'>
+                                <Text>
+                                    <FontAwesomeIcon icon={faCalendarDay} />{' '}
+                                    Meeting
+                                </Text>
+                            </Tag>
                         </WrapItem>
                     </Wrap>
                 </Segment>
