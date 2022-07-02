@@ -15,6 +15,6 @@ The design is heavily inspired by Craftzdog - [https://www.craftz.dog/](https://
 
 ## License
 
-MIT Lisence.
+MIT License.
 
 Use at your own discretion.
