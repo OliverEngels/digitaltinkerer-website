@@ -89,6 +89,7 @@ const header = props => {
                     <Spacer />
 
                     <Button
+                        aria-label='color-mode'
                         onClick={toggleColorMode}
                         colorScheme={colorModeValue('blue', 'orange')}
                         alignSelf='self-end'
