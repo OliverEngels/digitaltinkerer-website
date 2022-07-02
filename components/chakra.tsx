@@ -2,15 +2,16 @@ import {
     ChakraProvider,
     extendTheme,
     cookieStorageManager,
-    localStorageManager
+    localStorageManager,
+    type ThemeConfig
 } from '@chakra-ui/react'
 
-const config = {
+const config: ThemeConfig = {
     initialColorMode: 'dark',
-    useSystemColorMode: true
+    useSystemColorMode: false
 }
 
-const theme = extendTheme({ config })
+export const theme = extendTheme({ config })
 
 export default function Chakra({ cookies, children }) {
     const colorModeManager =
