@@ -1,81 +1,90 @@
 [
-    {
-        "id": "deadislandsurvivors",
-        "title": "Dead Island Survivors",
-        "company": "Deep Silver Fishlabs",
-        "img": "/deadisland-survivors.webp"
-    },
-    {
-        "id": "firedepartmenttraining",
-        "title": "Fire Department Training",
-        "company": "Infinity Labs",
-        "img": "/firedepartment.webp"
-    },
-    {
-        "id": "bucketbox",
-        "title": "Bucketbox",
-        "company": "Infinity Labs",
-        "img": "/messerbucketbox.webp"
-    },
-    {
-        "id": "aholdsafetytraining",
-        "title": "Ahold Safety Training",
-        "tags": ["production", "virtual reality"],
-        "company": "Infinity Labs",
-        "img": "/ahold.webp"
-    },
-    {
-        "id": "shellsandbox",
-        "title": "Shell Sandbox",
-        "company": "Infinity Labs",
-        "img": "/shellsandbox.webp"
-    },
-    {
-        "id": "vangoghexperience",
-        "title": "Van Gogh Experience",
-        "company": "Freelance",
-        "img": "/becomingvincent.webp"
-    },
-    {
-        "id": "klmpreflightchecklist",
-        "title": "KLM Preflight Checklist",
-        "company": "Infinity Labs",
-        "img": "/klmequipment.webp"
-    },
-    {
-        "id": "thecontrolroom",
-        "title": "The Control Room",
-        "company": "Infinity Labs",
-        "img": "/controlroom.webp"
-    },
-    {
-        "id": "infinitylogoanimation",
-        "title": "Infinity Logo Animation",
-        "company": "After Effects",
-        "img": "/infinity-logo.webp"
-    },
-    {
-        "id": "cubycard",
-        "title": "Cubycard",
-        "company": "Freelance",
-        "img": "/cubycard.webp"
-    },
-    {
-        "id": "straightjacket",
-        "title": "Straight Jacket",
-        "company": "NHTV",
-        "img": "/straightjacket.webp"
-    },
-    {
-        "id": "control4risk",
-        "title": "Control4Risk",
-        "company": "Freelance",
-        "img": "/controlfourrisk.webp"
-    },
-    {
-        "id": "jumpinglillies",
-        "title": "Jumping Lillies",
-        "company": "Freelance",
-        "img": "/jumpinglillies.webp"
-    }
+  {
+    "id": "teslafiretraining",
+    "title": "Tesla Fire Training",
+    "company": "Infinity Labs",
+    "img": "/tesla.webp"
+  },
+  {
+    "id": "deadislandsurvivors",
+    "title": "Dead Island Survivors",
+    "company": "Deep Silver Fishlabs",
+    "img": "/deadisland-survivors.webp"
+  },
+  {
+    "id": "firedepartmenttraining",
+    "title": "Fire Department Training",
+    "company": "Infinity Labs",
+    "img": "/firedepartment.webp"
+  },
+  {
+    "id": "bucketbox",
+    "title": "Bucketbox",
+    "company": "Infinity Labs",
+    "img": "/messerbucketbox.webp"
+  },
+  {
+    "id": "aholdsafetytraining",
+    "title": "Ahold Safety Training",
+    "tags": [
+      "production",
+      "virtual reality"
+    ],
+    "company": "Infinity Labs",
+    "img": "/ahold.webp"
+  },
+  {
+    "id": "shellsandbox",
+    "title": "Shell Sandbox",
+    "company": "Infinity Labs",
+    "img": "/shellsandbox.webp"
+  },
+  {
+    "id": "vangoghexperience",
+    "title": "Van Gogh Experience",
+    "company": "Freelance",
+    "img": "/becomingvincent.webp"
+  },
+  {
+    "id": "klmpreflightchecklist",
+    "title": "KLM Preflight Checklist",
+    "company": "Infinity Labs",
+    "img": "/klmequipment.webp"
+  },
+  {
+    "id": "thecontrolroom",
+    "title": "The Control Room",
+    "company": "Infinity Labs",
+    "img": "/controlroom.webp"
+  },
+  {
+    "id": "infinitylogoanimation",
+    "title": "Infinity Logo Animation",
+    "company": "After Effects",
+    "img": "/infinity-logo.webp"
+  },
+  {
+    "id": "cubycard",
+    "title": "Cubycard",
+    "company": "Freelance",
+    "img": "/cubycard.webp"
+  },
+  {
+    "id": "straightjacket",
+    "title": "Straight Jacket",
+    "company": "NHTV",
+    "img": "/straightjacket.webp"
+  },
+  {
+    "id": "control4risk",
+    "title": "Control4Risk",
+    "company": "Freelance",
+    "img": "/controlfourrisk.webp"
+  },
+  {
+    "id": "jumpinglillies",
+    "title": "Jumping Lillies",
+    "company": "Freelance",
+    "img": "/jumpinglillies.webp"
+  }
 ]
