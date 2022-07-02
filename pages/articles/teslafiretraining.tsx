@@ -4,7 +4,6 @@ import {
     Meta,
     Picture,
     Title,
-    Video,
     WebLink
 } from '../../components/article/article-elm'
 import P from '../../components/paragraph'
@@ -56,7 +55,7 @@ export default function Article() {
                         </ListItem>
                         <ListItem textAlign='left'>
                             <Meta>Contribution</Meta>
-                            <span>Producer</span>
+                            <span>Producer / Project Owner</span>
                         </ListItem>
                     </List>
                 </Segment>

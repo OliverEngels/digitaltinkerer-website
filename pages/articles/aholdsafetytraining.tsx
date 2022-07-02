@@ -49,8 +49,8 @@ export default function Article() {
                             <Meta>Contribution</Meta>
                             <span>
                                 Project planning and scope triage to hand over
-                                to other producer after the project was on
-                                schedule again
+                                to other producer after the project was back on
+                                schedule
                             </span>
                         </ListItem>
                     </List>
