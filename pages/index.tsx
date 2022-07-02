@@ -14,7 +14,7 @@ import {
     Center
 } from '@chakra-ui/react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBrain } from '@fortawesome/free-solid-svg-icons'
+import { faBrain, faCaretRight } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 import data from '../data/_tinkering-data.json'
 import { faGithubAlt, faLinkedin } from '@fortawesome/free-brands-svg-icons'
