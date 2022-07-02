@@ -1,134 +1,140 @@
 [
-    {
-        "title": "Project Oversight",
-        "company": "All information in one place",
-        "link": "/files/projects-oversight.xlsx",
-        "img": "/projects-oversigth.webp"
-    },
-    {
-        "title": "Risk Assessment",
-        "company": "Simple Risk Setup",
-        "link": "/files/risk-assessment.xlsx",
-        "img": "/risk-assessment.webp"
-    },
-    {
-        "id": "changeloggenerator",
-        "title": "Changelog Generator",
-        "company": "From Python to Notion",
-        "img": "/notion-changelog.webp"
-    },
-    {
-        "id": "applicantflowtemplate",
-        "title": "Applicant Flow Template",
-        "company": "Does not work for every company",
-        "img": "/applicant-flow-template.webp"
-    },
-    {
-        "title": "Presentation Elements",
-        "company": "XD Design",
-        "link": "/files/presentation-elements.xd",
-        "img": "/kickoffmeeting.webp"
-    },
-    {
-        "title": "Project Week Information",
-        "company": "Shows which weeks have less output",
-        "link": "/files/weekly-hour-information.xlsx",
-        "img": "/weekoverview.webp"
-    },
-    {
-        "title": "Resource Allocation",
-        "company": "Usefull for showing effort towards feature",
-        "link": "/files/resource-allocation.xlsx",
-        "img": "/resourceallocation.webp"
-    },
-    {
-        "title": "Project Status Report",
-        "company": "Keep stakeholders in the loop",
-        "link": "/files/project-status-report.xlsx",
-        "img": "/statusreport.webp"
-    },
-    {
-        "title": "Onboarding Presentation",
-        "company": "Good first impression",
-        "link": "/files/onboarding-presentation-example.pptx",
-        "img": "/onboarding.webp"
-    },
-    {
-        "title": "Project Communication Plan",
-        "company": "Simple template for communication goals and ownership",
-        "link": "/files/communication-plan.xlsx",
-        "img": "/projectcommunication.webp"
-    },
-    {
-        "title": "RACI-Matrix",
-        "company": "Who has what responsibility",
-        "link": "/files/raci-matrix-template.xlsx",
-        "img": "/racimatrix.webp"
-    },
-    {
-        "title": "Project Timeline",
-        "company": "Create a quick project timeline",
-        "link": "/files/timeline-example.xlsx",
-        "img": "/timeline.webp"
-    },
-    {
-        "title": "Onboarding Checklist",
-        "company": "Simple Checklist that can be printed out",
-        "link": "/files/onboarding-checklist.xlsx",
-        "img": "/onboardingdocument.webp"
-    },
-    {
-        "title": "Translating a Screening Room",
-        "company": "Paper about a screening room translation",
-        "link": "/files/translating-screening-room.pdf",
-        "img": "/translating.webp"
-    },
-    {
-        "title": "Beyond Version Control",
-        "company": "Paper about a version control tool",
-        "link": "/files/beyond-version-control.pdf",
-        "img": "/beyondversioncontrol.webp"
-    },
-    {
-        "title": "Temple",
-        "company": "Houdini Experimentation",
-        "link": "https://www.youtube.com/watch?v=9_FbwzWMx1s",
-        "img": "/houdinitemple.webp"
-    },
-    {
-        "title": "Collaboration Tool",
-        "company": "Automated Version Control",
-        "link": "https://www.youtube.com/watch?v=d_DmvqOhsnQ",
-        "img": "/collaboration-tool.webp"
-    },
-    {
-        "title": "Annotation Tool",
-        "company": "Todo List",
-        "link": "https://www.youtube.com/watch?v=7k-jYNtH6u0",
-        "img": "/annotations.webp"
-    },
-    {
-        "id": "gauntlet1985",
-        "title": "Gauntlet 1985",
-        "company": "Remake",
-        "img": "/gauntlet.webp"
-    },
-    {
-        "id": "robotron2084",
-        "title": "Robotron 2084",
-        "company": "Remake",
-        "img": "/robotron.webp"
-    },
-    {
-        "id": "museummadness",
-        "title": "Museum Madness",
-        "company": "PSVita Game",
-        "img": "/museummadness.webp"
-    },
-    {
-        "title": "A Houdini Bridge",
-        "company": "Needed to adjust to caps",
-        "link": "https://www.youtube.com/watch?v=WsTcyaJlYjI",
-        "img": "/houdinibridge.webp"
-    }
+  {
+    "title": "Feature Overview",
+    "company": "Shows milestones, work per discipline and potential hire requirements per milestone",
+    "link": "/files/feature-overview.xlsx",
+    "img": "/feature-overview.webp"
+  },
+  {
+    "title": "Project Oversight",
+    "company": "All information in one place",
+    "link": "/files/projects-oversight.xlsx",
+    "img": "/projects-oversigth.webp"
+  },
+  {
+    "title": "Risk Assessment",
+    "company": "Simple Risk Setup",
+    "link": "/files/risk-assessment.xlsx",
+    "img": "/risk-assessment.webp"
+  },
+  {
+    "id": "changeloggenerator",
+    "title": "Changelog Generator",
+    "company": "From Python to Notion",
+    "img": "/notion-changelog.webp"
+  },
+  {
+    "id": "applicantflowtemplate",
+    "title": "Applicant Flow Template",
+    "company": "Does not work for every company",
+    "img": "/applicant-flow-template.webp"
+  },
+  {
+    "title": "Presentation Elements",
+    "company": "XD Design",
+    "link": "/files/presentation-elements.xd",
+    "img": "/kickoffmeeting.webp"
+  },
+  {
+    "title": "Project Week Information",
+    "company": "Shows which weeks have less output",
+    "link": "/files/weekly-hour-information.xlsx",
+    "img": "/weekoverview.webp"
+  },
+  {
+    "title": "Resource Allocation",
+    "company": "Usefull for showing effort towards feature",
+    "link": "/files/resource-allocation.xlsx",
+    "img": "/resourceallocation.webp"
+  },
+  {
+    "title": "Project Status Report",
+    "company": "Keep stakeholders in the loop",
+    "link": "/files/project-status-report.xlsx",
+    "img": "/statusreport.webp"
+  },
+  {
+    "title": "Onboarding Presentation",
+    "company": "Good first impression",
+    "link": "/files/onboarding-presentation-example.pptx",
+    "img": "/onboarding.webp"
+  },
+  {
+    "title": "Project Communication Plan",
+    "company": "Simple template for communication goals and ownership",
+    "link": "/files/communication-plan.xlsx",
+    "img": "/projectcommunication.webp"
+  },
+  {
+    "title": "RACI-Matrix",
+    "company": "Who has what responsibility",
+    "link": "/files/raci-matrix-template.xlsx",
+    "img": "/racimatrix.webp"
+  },
+  {
+    "title": "Project Timeline",
+    "company": "Create a quick project timeline",
+    "link": "/files/timeline-example.xlsx",
+    "img": "/timeline.webp"
+  },
+  {
+    "title": "Onboarding Checklist",
+    "company": "Simple Checklist that can be printed out",
+    "link": "/files/onboarding-checklist.xlsx",
+    "img": "/onboardingdocument.webp"
+  },
+  {
+    "title": "Translating a Screening Room",
+    "company": "Paper about a screening room translation",
+    "link": "/files/translating-screening-room.pdf",
+    "img": "/translating.webp"
+  },
+  {
+    "title": "Beyond Version Control",
+    "company": "Paper about a version control tool",
+    "link": "/files/beyond-version-control.pdf",
+    "img": "/beyondversioncontrol.webp"
+  },
+  {
+    "title": "Temple",
+    "company": "Houdini Experimentation",
+    "link": "https://www.youtube.com/watch?v=9_FbwzWMx1s",
+    "img": "/houdinitemple.webp"
+  },
+  {
+    "title": "Collaboration Tool",
+    "company": "Automated Version Control",
+    "link": "https://www.youtube.com/watch?v=d_DmvqOhsnQ",
+    "img": "/collaboration-tool.webp"
+  },
+  {
+    "title": "Annotation Tool",
+    "company": "Todo List",
+    "link": "https://www.youtube.com/watch?v=7k-jYNtH6u0",
+    "img": "/annotations.webp"
+  },
+  {
+    "id": "gauntlet1985",
+    "title": "Gauntlet 1985",
+    "company": "Remake",
+    "img": "/gauntlet.webp"
+  },
+  {
+    "id": "robotron2084",
+    "title": "Robotron 2084",
+    "company": "Remake",
+    "img": "/robotron.webp"
+  },
+  {
+    "id": "museummadness",
+    "title": "Museum Madness",
+    "company": "PSVita Game",
+    "img": "/museummadness.webp"
+  },
+  {
+    "title": "A Houdini Bridge",
+    "company": "Needed to adjust to caps",
+    "link": "https://www.youtube.com/watch?v=WsTcyaJlYjI",
+    "img": "/houdinibridge.webp"
+  }
 ]
